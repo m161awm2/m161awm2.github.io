@@ -85,4 +85,4 @@ Options:<br>
     `; 
 
     document.getElementById("commandInput").value = ""
-});
+});// js test
