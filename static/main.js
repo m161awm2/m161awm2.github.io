@@ -60,7 +60,7 @@ Options:<br>
 
     <p>
         처음에는 보안을 생각했지만, 뛰어난 사람들이 너무 많았고 문제 풀이의 스트레스도 컸었습니다. <br>
-        그러다 어쩌다 찾게 된 <b>클라우드 인프라</b>는 확실한 <b color="red">터닝포인트</b>가 되었죠! 저는 운이 좋다 생각합니다!
+        그러다 어쩌다 찾게 된 <b>클라우드 인프라</b>는 확실한 <b color="red">터닝포인트</b>가 되었죠! 이 부분은 정말 할 말이 많지만 아끼겠습니다!
     </p>
 
     <p>
@@ -71,6 +71,11 @@ Options:<br>
 `;
     }else if(input == "cat skills.txt"){
         systemMsg=`Cloud & Infrastructure: AWS LINUX DOCKER NGINX<br>Languages & Tools: FLASK SQL GITHUB_ACTIONS JS TS NESTJS<br>아직 배울게 많지만 추후 우선순위로 IaC 도구와 k8s를 배울 예정입니다!`
+    }else if(input == "cat contact.txt"){
+        systemMsg=`Github:<a href="https://github.com/m161awm2" target="_blank">깃허브(클릭 이동)</a><br>blog:<a href="https://velog.io/@m161awm/posts">벨로그(클릭 이동)</a>`
+    }else if(input == "cat projects.txt"){
+        systemMsg=`NestCal : <a href="http://http://3.105.80.123:3000>이동하기</a><br>
+        이 프로젝트도 반쯤 유기한 상태입니다, 솔직히 지금은 그렇게 많은 프로젝트를 만들진 않을 계획입니다 아직 배울 단계고.. 조금만 기다려주세요!`
     }
     else{
         systemMsg = `command not found: ${input}`
