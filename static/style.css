@@ -1,0 +1,21 @@
+body {
+    background: black;
+    color: white;
+    font-family: monospace;
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    margin: 0;
+    line-height: 1.1;
+    color: rgb(0, 181, 0);
+}
+p{
+    color: rgb(0, 181, 0);
+    font-family: monospace;
+    line-height: 1;
+}
+div#terminalList {
+    color: rgb(0, 181, 0);
+}
