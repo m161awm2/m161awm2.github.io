@@ -59,7 +59,9 @@ m161awm2.github.io/
 ├── index.html
 └── static/
     ├── style.css
-    └── main.js
+    ├── main.js
+    └── icon.ico
+    
 ```
 
 ## 구현 내용
