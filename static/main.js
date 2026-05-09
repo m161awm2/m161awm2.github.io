@@ -4,7 +4,7 @@ document.getElementById("input_line").addEventListener("submit", function(event)
     
     let systemMsg = "";
     if(input === "help"){ 
-        systemMsg = "command list : cat, ls, pwd, clear, echo";
+        systemMsg = "command list : cat, ls, pwd, clear, echo, eval";
     }
     else if(input === "cat"){
         systemMsg = "cat: missing file operand\nTry 'cat --help' for more information.";
@@ -32,11 +32,14 @@ Options:<br>
         systemMsg="";
         document.getElementById("terminalList").innerText = "";
     }
-    else if(input === "echo"){
-        systemMsg="주인장의 스택 이슈로 아직 미구현";
+    else if(input.startsWith("echo ")){
+        systemMsg=input.slice(5);
+    }
+    else if(input.startsWith("eval ")){
+        eval(input.slice(5));
     }
     else if(input === "sudo"){
-        systemMsg="you don't have permission to do that";
+        systemMsg="sudo: you don't have permission to do that";
     }
     else if(input === "rm -rf /"){
         systemMsg="Nice try! :)"
@@ -84,5 +87,5 @@ Options:<br>
     <div>${systemMsg}</div>
     `; 
 
-    document.getElementById("commandInput").value = ""
-});// js test
+    document.getElementById("commandInput").value = "";
+});
