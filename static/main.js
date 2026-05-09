@@ -1,7 +1,7 @@
 document.getElementById("input_line").addEventListener("submit", function(event) {
     event.preventDefault(); 
     const input = document.getElementById("commandInput").value;    
-    
+    const sudoMsg = "sudo: you don't have permission to do that";
     let systemMsg = "";
     if(input === "help"){ 
         systemMsg = "command list : cat, ls, pwd, clear, echo, eval";
@@ -35,11 +35,20 @@ Options:<br>
     else if(input.startsWith("echo ")){
         systemMsg=input.slice(5);
     }
+    else if(input === "echo"){
+        systemMsg="";
+        }
     else if(input.startsWith("eval ")){
         eval(input.slice(5));
     }
+    else if(input === "eval"){
+        systemMsg = "";
+    }
+    else if(input.startsWith("sudo ")){
+        systemMsg=sudoMsg;
+    }
     else if(input === "sudo"){
-        systemMsg="sudo: you don't have permission to do that";
+        systemMsg=sudoMsg;
     }
     else if(input === "rm -rf /"){
         systemMsg="Nice try! :)"
