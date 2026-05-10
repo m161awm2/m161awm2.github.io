@@ -63,7 +63,12 @@ Options:<br>
     <p>
         <b>세명컴고 1학년 2반, 보안과의 심장이 될 구본무입니다!</b>
     </p>
-    
+    <p>
+        MBTI : INTJ
+        싫어하는 MBTI : <b>ESFP</b>
+
+        Detail : <a href="https://m161awm.kr>m161awm.kr</a>
+    </p>
     <p>
         2년 전까지만 해도 일반적인 개발에 관심이 많았었습니다. <br>
         하지만 중학교 1학년 때 등장한 <b>ChatGPT</b>와 <b>Gemini(Bard)</b> 같은 LLM의 발전 속도에 큰 당황을 느꼈습니다. <br>
@@ -72,7 +77,7 @@ Options:<br>
 
     <p>
         처음에는 보안을 생각했지만, 뛰어난 사람들이 너무 많았고 문제 풀이의 스트레스도 컸었습니다. <br>
-        그러다 어쩌다 찾게 된 <b>클라우드 인프라</b>는 확실한 <b color="red">터닝포인트</b>가 되었죠! 이 부분은 정말 할 말이 많지만 아끼겠습니다!
+        그러다 어쩌다 찾게 된 <b>클라우드 인프라</b>는 확실한 <b style="color=red;">터닝포인트</b>가 되었죠! 이 부분은 정말 할 말이 많지만 아끼겠습니다!
     </p>
 
     <p>
@@ -82,7 +87,7 @@ Options:<br>
 </div>
 `;
     }else if(input == "cat skills.txt"){
-        systemMsg=`Cloud & Infrastructure: AWS LINUX DOCKER NGINX<br>Languages & Tools: FLASK SQL GITHUB_ACTIONS JS TS NESTJS<br>아직 배울게 많지만 추후 우선순위로 IaC 도구와 k8s를 배울 예정입니다!`
+        systemMsg=`<br>Cloud & Infrastructure: AWS LINUX DOCKER NGINX<br>Languages & Tools: FLASK SQL GITHUB_ACTIONS JS TS NESTJS<br>아직 배울게 많지만 추후 우선순위로 IaC 도구와 k8s를 배울 예정입니다!<br>`
     }else if(input == "cat contact.txt"){
         systemMsg=`Github:<a href="https://github.com/m161awm2" target="_blank">깃허브(클릭 이동)</a><br>blog:<a href="https://velog.io/@m161awm/posts">벨로그(클릭 이동)</a>`
     }else if(input == "cat projects.txt"){

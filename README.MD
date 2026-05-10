@@ -30,6 +30,8 @@ https://m161awm2.github.io
 - `cat projects.txt` : 프로젝트 목록 출력
 - `cat contact.txt` : 연락처 출력
 - `clear` : 터미널 화면 초기화
+- `echo` : 공백 뒤 문자 출력
+- `eval` : 이발 시켜버림 (사용 절대금지)
 - 그외 이스터에그
 ## 기술 스택
 
@@ -78,7 +80,7 @@ m161awm2.github.io/
 
 ```js
 if (input === "help") {
-  systemMsg = "command list : cat, ls, pwd, clear, echo";
+  systemMsg = "command list : cat, ls, pwd, clear, echo, eval";
 }
 ```
 
@@ -118,7 +120,6 @@ cd m161awm2.github.io
 
 ## 앞으로 추가할 기능
 
-- `echo` 명령어 기능 개선
 - `cat projects.txt` 내용 보완
 - 프로젝트 링크 추가
 - 명령어 히스토리 기능
