@@ -64,10 +64,9 @@ Options:<br>
         <b>세명컴고 1학년 2반, 보안과의 심장이 될 구본무입니다!</b>
     </p>
     <p>
-        MBTI : INTJ
-        싫어하는 MBTI : <b>ESFP</b>
+        MBTI : INTJ <br>
+        싫어하는 MBTI : <b>ESFP</b><br>
 
-        Detail : <a href="https://m161awm.kr>m161awm.kr</a>
     </p>
     <p>
         2년 전까지만 해도 일반적인 개발에 관심이 많았었습니다. <br>
