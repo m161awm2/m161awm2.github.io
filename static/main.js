@@ -87,4 +87,5 @@ m161awm@localhost:~$${input}
 m161awm@localhost:~$${input}
 <div>${systemMsg}</div>
 `;
+document.getElementById('commandInput').value = "";
 });
